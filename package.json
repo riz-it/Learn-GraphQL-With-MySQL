@@ -1,0 +1,25 @@
+{
+  "name": "graphql-mysql",
+  "version": "1.0.0",
+  "description": "GraphQL Server With MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "riz.it",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "faker": "^5.5.3",
+    "graphql": "^16.3.0",
+    "graphql-date": "^1.0.3",
+    "knex": "^1.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
